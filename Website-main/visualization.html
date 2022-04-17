@@ -58,8 +58,8 @@
                   <a href="index.html">Home</a>
                   <a href="visualization.html">Visualization</a>
                   <a href="predictions.html">Predictions</a>
-                  <a href="all_stocks.html">All Stocks</a>
-                  <a href="circuit.html">Circuit</a>
+                  <!-- <a href="all_stocks.html">All Stocks</a> -->
+                  <!-- <a href="circuit.html">Circuit</a> -->
                 </nav>
                 <div class="menu-bar"><span class="lnr lnr-menu"></span></div>
               </div>
@@ -88,29 +88,37 @@
       <section class="featured-area">
         <!-- TradingView Widget BEGIN -->
         <div class="tradingview-widget-container">
-          <div id="tradingview_38646"></div>
+          <div id="tradingview_2515c"></div>
+          <div class="tradingview-widget-copyright">
+            <a
+              href="https://in.tradingview.com/symbols/NASDAQ-TSLA/"
+              rel="noopener"
+              target="_blank"
+              ><span class="blue-text">TSLA Chart</span></a
+            >
+            by TradingView
+          </div>
           <script
             type="text/javascript"
             src="https://s3.tradingview.com/tv.js"
           ></script>
           <script type="text/javascript">
             new TradingView.widget({
-              width: 960,
-              height: 720,
-              symbol: "BSE:RELIANCE",
+              autosize: false,
+              symbol: "NASDAQ:TSLA",
               interval: "D",
-              timezone: "Asia/Kolkata",
+              timezone: "Etc/UTC",
               theme: "dark",
-              style: "2",
-              locale: "en",
+              style: "1",
+              locale: "in",
               toolbar_bg: "#f1f3f6",
               enable_publishing: false,
               allow_symbol_change: true,
-              save_image: false,
-              container_id: "tradingview_38646",
+              container_id: "tradingview_2515c",
             });
           </script>
         </div>
+        <!-- TradingView Widget END -->
         <!-- TradingView Widget END -->
       </section>
       <!-- End Feature Area -->
@@ -121,7 +129,7 @@
         <div class="container">
           <div class="footer-content d-flex flex-column align-items-center">
             <div class="copy-right-text">
-              Copyright &copy; 2022 All rights reserved | Carpe Diem
+              Project by Karan, Atharv and Sailee
             </div>
           </div>
         </div>
