@@ -2427,6 +2427,11 @@ body {
   margin-bottom: 50px;
 }
 
+.prediction {
+  display: flex;
+  justify-content: center;
+}
+
 .subscription-area .section-title h2 {
   font-size: 30px;
   line-height: 1.15em;
